@@ -5,6 +5,7 @@
  */
 package javaapplication2;
 
+
 /**
  *
  * @author ajai
@@ -38,14 +39,14 @@ public class DashBoard extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButton1.setText("Add Product");
+        jButton1.setText("Add-Inventory");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
 
-        jButton2.setText("Edit Product");
+        jButton2.setText("Edit-Inventory");
 
         jButton3.setText("Delete Product");
 
@@ -94,7 +95,7 @@ public class DashBoard extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        AddProduct addproduct = new AddProduct();
+        AddInventory addproduct = new AddInventory();
         addproduct.setVisible(true);
         
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -103,6 +104,9 @@ public class DashBoard extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
+        
+
+        
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
